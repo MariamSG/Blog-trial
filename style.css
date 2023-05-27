@@ -1,0 +1,85 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.top{width: 100%; float: left;}
+.container{width: 85%; margin: 0px auto;}
+.left{width: 50%;float: left;padding-top: 15px;}
+.tonyhead{font-size: 20px;font-weight: bold;}
+ul li{float: left;padding-left: 15px;}
+a{text-decoration: none;color: black;font-weight: 600;text-transform: uppercase;font-size: 14px;}
+.active{color: orange;}
+a:hover{color: orange;}
+.pad-100{padding: 150px 0;}
+.pad-50{padding: 50px 0;}
+.hello{font-weight: 600;font-size: 17px;}
+.tonyname{font-size: 55px;font-weight: bold;padding: 15px 0;}
+.passionate{font-size: 20px;}
+.namics{color: #6c6f6d;line-height: 25px;padding-top: 15px;font-weight: 300;}
+.btn{padding: 15px;margin-top: 25px;font-size: 16px;font-weight: 700;cursor: pointer}
+.btn-orange{background-color: #d9832e;border: none;color: white;border: solid 2px #d9832e;}
+.btn-orange:hover{background-color: black;border: solid 2px black;}
+.btn-white{background-color: white;color: #d9832e;border: solid 2px #d9832e;}
+.btn-white:hover{background-color: #d9832e;color: white;}
+.bg-gray{background-color: #eaedf2;}
+.fullw{width: 100%;}
+.fullw h3{font-weight: 800;font-size: 35px;}
+.uline{width: 50px;height: 2px;background-color: orange;margin: 10px 0;}
+.left-1{width: 40%;float: left;margin-top: 50px;}
+.left-2{width: 50%;float: right;margin-top: 50px;}
+.imgg{width: 90%;float: left;border: solid 15px white;border-radius: 10px;}
+.imgg img{width: 100%;float: left;}
+.social{float: left;width: 40px; height: 200px; margin-top: -500px;display: flex; background-color: white;border: 10px solid white;flex-wrap: wrap;margin-left: 14px;}
+i{padding: 10px;background-color: orange;color: white;text-align: center;width: 20px; margin-bottom: 10px;cursor: pointer;}
+.m-none{margin-bottom: 0px !important;}
+i:hover{background-color: black;}
+.lead{font-weight: 400;font-size: 18px;padding: 15px 0;}
+.tony{font-weight: 600;font-size: 30px;padding-top: 30px;}
+.br-right{border-right: solid 1px #d0d1d3;}
+.left-cv{width: 30%;float: left;margin-top: 10px;font-weight: 500;}
+.right-cv{width: 60%;float: left;padding-left: 15px;margin-top: 10px;color: #818182;}
